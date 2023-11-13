@@ -10,3 +10,9 @@
           run: npm install
         - name: lint
           run: npm run lint
+        - name: test
+          run: npm run test
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name:
