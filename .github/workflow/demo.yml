@@ -8,6 +8,3 @@
         uses: action/checkout@v4
       - name: lint
         run: npm run lint
-
-
-
