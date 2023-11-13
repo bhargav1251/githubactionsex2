@@ -2,9 +2,9 @@
   on: [push, workflow_dispatch]
   jobs:
     lint:
-    runs on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: action/checkout@v4
-      - name: lint
-        run: npm run lint
+      runs on: ubuntu-latest
+      steps:
+        - name: checkout
+          uses: action/checkout@v4
+        - name: lint
+          run: npm run lint
