@@ -15,4 +15,5 @@
     build:
       runs-on: ubuntu-latest
       steps:
-        - name:
+        - name: build
+          run: npm run build
