@@ -13,6 +13,7 @@
         - name: test
           run: npm run test
     build:
+      needs: lint
       runs-on: ubuntu-latest
       steps:
         - name: build
