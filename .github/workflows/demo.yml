@@ -6,5 +6,7 @@
       steps:
         - name: checkout
           uses: actions/checkout@v4
+        - name : install dependencies
+          run: npm install
         - name: lint
           run: npm run lint
